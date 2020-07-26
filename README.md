@@ -6,7 +6,7 @@
 
 - cd ~/Desktop
 - mkdir BestBuy
-- cd FakeInsta
+- cd BestBuy
 - pipenv install django
 - pipenv shell
 - django-admin startproject myshop .
@@ -14,3 +14,4 @@
 - pip3 install Pillow
 - python manage.py makemigrations
 - python manage.py migrate
+- python manage.py createsuperuser
