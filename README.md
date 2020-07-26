@@ -21,3 +21,4 @@ slug is SEO-friendly:
 - python manage.py migrate
 - python manage.py createsuperuser
 - django-admin startapp cart
+
