@@ -21,8 +21,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # this has to be before the shop.urls, it's more restrictive than shop.urls
+    # cart and orders has to be before the shop.urls, they are more restrictive than shop.urls
     path('cart/', include('cart.urls', namespace='cart')),
+    path('orders/', include('orders.urls', namespace='orders')),
     path('', include('shop.urls', namespace='shop')),
     
 ]
